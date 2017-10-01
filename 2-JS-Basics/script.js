@@ -174,3 +174,20 @@ function yearsUntilRetirement(name, year) {
 yearsUntilRetirement('John', 1990);
 yearsUntilRetirement('Mike', 1969);
 yearsUntilRetirement('Mary', 1948);
+
+function someFun(par) {
+    //code
+}
+
+var someFun = function(par) {
+    //code
+}
+
+//Expressions
+3 + 4;
+var x = 3;
+
+//statements
+if (x === 5) {
+    //do soemthing
+}
