@@ -1,3 +1,4 @@
+
 console.log('Javascript non Inline log');
 var name = "SUDIE";
 console.log(name);
@@ -115,4 +116,34 @@ switch (job) {
         break;
     default:
         console.log('John does something else.');
+}
+
+
+//Coding challenge
+var age1 = prompt("Enter Player1's age:");
+var age2 = prompt("Enter Player2's age:");
+var age3 = prompt("Enter Player3's age:");
+var height1 = prompt("Enter Player1's height");
+var height2 = prompt("Enter Player2's height");
+var height3 = prompt("Enter Player3's height");
+
+var sum1 = (age1*5)+height1;
+var sum2 = (age2*5)+height2;
+var sum3 = (age3*5)+height1;
+
+if(sum1 > sum2 && sum1 > sum3)
+{
+    console.log("Player1 wins with a score: "+sum1);
+}
+else if(sum2 > sum1 && sum2 > sum3)
+{
+    console.log("Player2 wins with a score: "+sum2);
+}
+else if(sum3 > sum1 && sum3 > sum2)
+{
+    console.log("Player3 wins with a score: "+sum3);
+}
+else
+{
+    console.log("NO CLEAR WINNER, SCORES ARE TIED");
 }
